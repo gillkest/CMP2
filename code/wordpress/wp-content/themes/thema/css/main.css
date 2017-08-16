@@ -1,0 +1,98 @@
+body{
+    background: white;
+}
+.menu-item{
+    padding: 10px;
+    text-align: left;
+}
+#site-header{
+    overflow: hidden;
+    max-height: 100%;
+	max-width: 100%;
+}
+.navbar-default {
+    background-color: red;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-toggler{
+    height: 50px;
+    width: 50px;
+}
+.fa{
+    color: white;
+    height: 100%;
+}
+.navbar-default{
+    padding: 6px;
+
+}
+.logo{
+    height: 70px;
+}
+
+.container{
+    align-content: center;
+}
+
+.zwart{
+    background-color: black; 
+    height: 50px;
+    color: white;
+}
+#site-header{
+    max-height: 200px;
+	max-width: 100%;
+    position: relative;
+}
+#banner-tekst {
+    padding: 20px;
+    position: absolute;
+    
+}
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+h1{
+    padding: 5px;
+    color: red; 
+    background-color: black;
+    font-size: 3em;
+    font-family: oswald stencil;
+}
+h2{
+    padding: 5px;
+    color: black; 
+    background-color: red;
+    font-size: 3em;
+    font-family: oswald stencil;
+}
+h3{
+    padding: 5px;
+    color: white; 
+    font-size: 2em;
+    font-family: oswald stencil;
+}
+h4{
+    padding: 5px;
+    color: white; 
+    font-size: 1em;
+    font-family: oswald stencil;
+}
+
+.wit{
+    padding: 5px;
+    background-color: black;
+}
+
+.selfie {
+    align-content: center;
+    display: inline-block;
+    width: 100%;
+}

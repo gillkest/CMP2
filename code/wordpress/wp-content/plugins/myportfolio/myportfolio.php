@@ -1,0 +1,13 @@
+<?php
+/*
+Plugin Name: My Portfolio
+Plugin URI: http://gdm.gent/
+Description: My Portfolio is the best plugin to store your own portfolio items.
+Version: 1.0.0
+Author: Kristof Raes
+Author URI: http://krisra.gdm.gent/
+*/
+
+register_post_type( $post_type, $args );
+
+register_taxonomy( $taxonomy, $object_type, $args );
