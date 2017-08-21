@@ -7,7 +7,7 @@ if(have_posts())
             the_post();
             //Print the title and the content of the current post
 ?>
-    <h1><?php the_title(); ?> </h1>
+    
 
         <section class="portfolio">
 

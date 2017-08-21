@@ -38,6 +38,9 @@ add_theme_support( 'post-thumbnails' );
 //custom image size aanmaken
 add_image_size('header-banner', 400, 50, false);
 
+//custom image size aanmaken
+add_image_size('voorpag', 225, 225, false);
+
 //custom logo kunnen toevoegen
 add_theme_support( 'custom-logo' );
 
@@ -47,7 +50,6 @@ $header_info = array(
     'width'         => 1440,
     'flex-height'   => true,
     'height'        => 400,
-    'default-image' => get_template_directory_uri() . '/foto/sunset.jpg',
 );
 add_theme_support( 'custom-header', $header_info );
 

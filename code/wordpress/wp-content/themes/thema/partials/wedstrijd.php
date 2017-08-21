@@ -5,7 +5,7 @@
                     the_post();
                     //Print the title and the content of the current post
                     ?>
-<div class="col-3 selfie">
+<div class="selfie">
                     <?php
                     the_title('<h2>', '</h2>');
                     the_content();

@@ -4,8 +4,6 @@
                     //initialize the post
                     the_post();
                     //Print the title and the content of the current post
-
-                    the_title('<h2>', '</h2>');
                     the_content();
 
                 }
@@ -17,3 +15,5 @@
                 the_post_thumbnail('post-thumbnail');
             }
 ?>
+
+

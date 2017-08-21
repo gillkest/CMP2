@@ -2,19 +2,29 @@ body{
     background: white;
 }
 .menu-item{
+    
     padding: 10px;
     text-align: left;
+    
 }
 #site-header{
     overflow: hidden;
     max-height: 100%;
-	max-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
+p{
+    text-align: left;
+}
+
 .navbar-default {
-    background-color: red;
+    background-color: rgb(254, 142, 38);
+    
 }
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: black;
+    
 }
 .navbar-toggler{
     height: 50px;
@@ -33,6 +43,7 @@ body{
 }
 
 .container{
+    width: 90%;
     align-content: center;
 }
 
@@ -42,7 +53,7 @@ body{
     color: white;
 }
 #site-header{
-    max-height: 200px;
+    max-height: 100%;
 	max-width: 100%;
     position: relative;
 }
@@ -61,7 +72,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 h1{
     padding: 5px;
-    color: red; 
+    color: rgb(254, 142, 38); 
     background-color: black;
     font-size: 3em;
     font-family: oswald stencil;
@@ -69,19 +80,19 @@ h1{
 h2{
     padding: 5px;
     color: black; 
-    background-color: red;
+    background-color: rgb(254, 142, 38);
     font-size: 3em;
     font-family: oswald stencil;
 }
 h3{
     padding: 5px;
-    color: white; 
+    color: black; 
     font-size: 2em;
     font-family: oswald stencil;
 }
 h4{
     padding: 5px;
-    color: white; 
+    color: black; 
     font-size: 1em;
     font-family: oswald stencil;
 }
@@ -94,5 +105,37 @@ h4{
 .selfie {
     align-content: center;
     display: inline-block;
-    width: 100%;
+    width: 30%;
+    padding: 2%;
 }
+
+.bottomMenu { 
+    margin: auto;
+    width: 50%;
+    display: block; 
+    text-align: center;
+}
+.bottomMenu ul { 
+    display: inline; 
+}
+.bottomMenu li { 
+    list-style-type: none; 
+    display: inline; 
+    font-size: 12px; 
+}
+.bottomMenu li a {
+	color:#000;
+	line-height:15px;
+	text-decoration:none;
+	font-weight:normal;
+	border-right: thin solid #000;
+	padding: 0 7px 0 3px;
+}
+.bottomMenu li a:hover { 
+    color:blue; 
+    text-decoration:underline;
+}
+.bottomMenu li:last-child > a {
+    border-right: none;
+} /* remove pipe from last item */
+
